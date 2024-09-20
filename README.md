@@ -24,5 +24,7 @@ And run it like this:
         raw-sel path/to/directory/storing/photos
 
 ## Notice
+
 Currently only macOS and Linux are supported. 
+
 Enjoy this lovely toy :)
