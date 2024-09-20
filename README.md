@@ -12,16 +12,16 @@ If there are no remaining files in the “RAW” folder, the script will delete 
 ## How to use it?
 To use the script, simply download it and run the following command in your terminal:
 
-        cd path/to/the/script
-        bash Raw-autoselect.sh path/to/directory/storing/photos/
+        cd "path/to/the/script"
+        bash Raw-autoselect.sh "path/to/directory/storing/photos"
     
 You may also create an alias to make it more handy(Take zsh for example):
     
-        alias raw-sel=" bash path/to/the/script/Raw-select.sh"
+        alias raw-sel="bash \"path/to/the/script/Raw-select.sh\""
     
 And run it like this:
 
-        raw-sel path/to/directory/storing/photos
+        raw-sel "path/to/directory/storing/photos"
 
 ## Notice
 
